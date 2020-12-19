@@ -3,7 +3,7 @@ const signupRouter  = express.Router();
 
 function router(indexNav){
     signupRouter.get('/',function(req,res){
-        res.render("signUp", {
+        res.render("signup", {
             indexNav,
             title : 'Library',
         });
