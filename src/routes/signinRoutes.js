@@ -3,7 +3,7 @@ const signinRouter  = express.Router();
 
 function router(indexNav){
     signinRouter.get('/', function(req,res) {
-        res.render("signIn", {
+        res.render("signin", {
             indexNav,
             title : 'Library',    
         }); 
