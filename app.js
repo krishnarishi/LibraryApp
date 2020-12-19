@@ -5,10 +5,10 @@ const port = process.env.PORT || 5000;
 
 const indexNav = [
     {
-        link : '/signIn',name : 'SignIn'
+        link : '/signin',name : 'SignIn'
     },
     {
-        link : '/signUp',name : 'SignUp'
+        link : '/signup',name : 'SignUp'
     }
 ];
 const homeNav = [
